@@ -1,0 +1,24 @@
+.game-container {
+  width: 500px;
+  height: 500px;
+}
+
+.player {
+  width: 200px;
+  height: 20px;
+  background-color: black;
+}
+
+.menu {
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 400px;
+  border: 1px solid grey;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
